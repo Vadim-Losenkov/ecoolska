@@ -55,14 +55,38 @@ body {
 
 }
 
+.brandBorder-top {
+  padding-top: 16px;
+  border-top: 2px solid #544D46;
+}
+
+.brandBorder-bottom {
+  padding-bottom: 16px;
+  border-bottom: 2px solid #544D46;
+}
+
 .brandText {
   font-family: Proba Pro;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
   line-height: 24px;
-  /* or 133% */
-
-
   color: #544D46;
+}
+
+.brandPage-block {
+  display: flex;
+  margin-bottom: 200px;
+  .brandPage-col:first-child {
+    margin-right: 32px;
+    max-width: 687px;
+    .brandTitle {
+      margin-bottom: 64px;
+    }
+  }
+  .brandPage-col:last-child {
+    .brandTitle {
+      margin-top: 64px;
+    }
+  }
 }

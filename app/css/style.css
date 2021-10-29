@@ -79,14 +79,43 @@ body {
   color: #544D46;
 }
 
+.brandBorder-top {
+  padding-top: 16px;
+  border-top: 2px solid #544D46;
+}
+
+.brandBorder-bottom {
+  padding-bottom: 16px;
+  border-bottom: 2px solid #544D46;
+}
+
 .brandText {
   font-family: Proba Pro;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
   line-height: 24px;
-  /* or 133% */
   color: #544D46;
+}
+
+.brandPage-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 200px;
+}
+
+.brandPage-block .brandPage-col:first-child {
+  margin-right: 32px;
+  max-width: 687px;
+}
+
+.brandPage-block .brandPage-col:first-child .brandTitle {
+  margin-bottom: 64px;
+}
+
+.brandPage-block .brandPage-col:last-child .brandTitle {
+  margin-top: 64px;
 }
 
 html {
@@ -153,7 +182,7 @@ a {
 
 .brandTop .brandMainTitle {
   padding-bottom: 21px;
-  border-bottom: 1px solid #544d46;
+  border-bottom: 2px solid #544d46;
   margin-bottom: 40px;
 }
 
@@ -203,8 +232,6 @@ a {
 }
 
 .brandInfoTop .brandTitle {
-  padding-bottom: 16px;
-  border-bottom: 1px solid #544d46;
   margin-bottom: 48px;
 }
 
@@ -259,9 +286,6 @@ a {
 .brandInfoHistory__head {
   max-width: 380px;
   width: 100%;
-  padding: 16px 0;
-  border-top: 2px solid #544d46;
-  border-bottom: 2px solid #544d46;
   position: absolute;
   right: 0;
   top: 0;
@@ -300,39 +324,13 @@ a {
   margin-right: 32px;
 }
 
-.brandAbout {
-  margin-bottom: 200px;
-}
-
-.brandAbout__inner {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.brandAbout__col:first-child {
-  margin-right: 32px;
-  max-width: 687px;
-}
-
-.brandAbout__col:first-child .brandTitle {
-  padding-top: 16px;
-  border-top: 2px solid #544D46;
-  margin-bottom: 64px;
-}
-
-.brandAbout__col:first-child img {
+.brandAbout .brandPage-col:first-child img {
   height: 693px;
 }
 
-.brandAbout__col:last-child img {
+.brandAbout .brandPage-col:last-child img {
   height: 797px;
   margin-bottom: 32px;
-}
-
-.brandAbout__col:last-child .brandText {
-  padding-top: 16px;
-  border-top: 2px solid #544D46;
 }
 
 .brandAboutTestimonials {
@@ -349,9 +347,6 @@ a {
 }
 
 .brandAboutTestimonials__box {
-  padding: 16px 0;
-  border-top: 2px solid #544D46;
-  border-bottom: 2px solid #544D46;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -381,8 +376,6 @@ a {
 .brandAboutTestimonials__text .brandText {
   max-width: 276px;
   width: 100%;
-  padding-top: 16px;
-  border-top: 2px solid #544D46;
   font-size: 16px;
 }
 
@@ -396,8 +389,6 @@ a {
 }
 
 .brandReason__list .brandTitle {
-  padding-bottom: 16px;
-  border-bottom: 2px solid #544D46;
   margin-bottom: 64px;
 }
 
@@ -405,27 +396,30 @@ a {
   margin-top: 200px;
 }
 
-.brandReasonPeople__inner {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+.brandReasonAbout {
+  margin-bottom: 200px;
+  background-color: #D0DEBB;
+  padding: 56px 0;
 }
 
-.brandReasonPeople .brandTitle {
-  padding-top: 16px;
-  border-top: 2px solid #544D46;
-}
-
-.brandReasonPeople__col:first-child {
-  max-width: 687px;
-  margin-right: 32px;
-}
-
-.brandReasonPeople__col:first-child .brandTitle {
+.brandReasonAbout .brandTitle {
+  max-width: 892px;
   margin-bottom: 64px;
 }
 
-.brandReasonPeople__col:last-child .brandTitle {
-  margin-top: 64px;
+.brandReasonAbout .brandText:first-child {
+  margin-top: auto;
+}
+
+.brandReasonAbout__inner {
+  padding: 0 103px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-column-gap: 32px;
+          column-gap: 32px;
 }
 /*# sourceMappingURL=style.css.map */

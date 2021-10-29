@@ -9,7 +9,7 @@
   margin-bottom: 200px;
   .brandMainTitle {
     padding-bottom: 21px;
-    border-bottom: 1px solid #544d46;
+    border-bottom: 2px solid #544d46;
     margin-bottom: 40px;
   }
   &__text {
@@ -47,8 +47,6 @@
     }
   }
   .brandTitle {
-    padding-bottom: 16px;
-    border-bottom: 1px solid #544d46;
     margin-bottom: 48px;
     &.second-title {
       margin-bottom: 64px;
@@ -91,9 +89,6 @@
   &__head {
     max-width: 380px;
     width: 100%;
-    padding: 16px 0;
-    border-top: 2px solid #544d46;
-    border-bottom: 2px solid #544d46;
     position: absolute;
     right: 0;
     top: 0;
@@ -121,30 +116,15 @@
 }
 
 .brandAbout {
-  margin-bottom: 200px;
-  &__inner {
-    display: flex;
-  }
-  &__col:first-child {
-    margin-right: 32px;
-    max-width: 687px;
-    .brandTitle {
-      padding-top: 16px;
-      border-top: 2px solid #544D46;
-      margin-bottom: 64px;
-    }
+  .brandPage-col:first-child {
     img {
       height: 693px;
     }
   }
-  &__col:last-child {
+  .brandPage-col:last-child {
     img {
       height: 797px;
       margin-bottom: 32px;
-    }
-    .brandText {
-      padding-top: 16px;
-      border-top: 2px solid #544D46;
     }
   }
 }
@@ -160,9 +140,6 @@
     margin-bottom: 48px;
   }
   &__box {
-    padding: 16px 0;
-    border-top: 2px solid #544D46;
-    border-bottom: 2px solid #544D46;
     display: flex;
     margin-bottom: 64px;
     .brandMainTitle {
@@ -181,8 +158,6 @@
     .brandText {
       max-width: 276px;
       width: 100%;
-      padding-top: 16px;
-      border-top: 2px solid #544D46;
       font-size: 16px;
       &:first-child {
         max-width: 379px;
@@ -196,8 +171,6 @@
     max-width: 790px;
     margin-left: auto;
     .brandTitle {
-      padding-bottom: 16px;
-      border-bottom: 2px solid #544D46;
       margin-bottom: 64px;
     }
   }
@@ -205,25 +178,24 @@
 
 .brandReasonPeople {
   margin-top: 200px;
-  &__inner {
-    display: flex;
-  }
-  .brandTitle {
-    padding-top: 16px;
-    border-top: 2px solid #544D46;
-  }
-  &__col:first-child {
-    .brandTitle {
-      margin-bottom: 64px;
-    }
-    max-width: 687px;
-    margin-right: 32px;
-  }
-  &__col:last-child {
-    .brandTitle {
-      margin-top: 64px;
+}
 
-    }
+.brandReasonAbout {
+  margin-bottom: 200px;
+  background-color: #D0DEBB;
+  padding: 56px 0;
+  .brandTitle {
+    max-width: 892px;
+    margin-bottom: 64px;
+  }
+  .brandText:first-child {
+    margin-top: auto;
+  }
+  &__inner {
+    padding: 0 103px;
+    display: flex;
+    align-items: flex-start;
+    column-gap: 32px;
   }
 }
 
