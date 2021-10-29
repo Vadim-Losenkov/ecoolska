@@ -1,0 +1,431 @@
+@font-face {
+  font-family: 'Proba Pro';
+  src: url("../fonts/ProbaPro-BoldItalic.eot");
+  src: local("Proba Pro Bold Italic"), local("ProbaPro-BoldItalic"), url("../fonts/ProbaPro-BoldItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/ProbaPro-BoldItalic.woff") format("woff"), url("../fonts/ProbaPro-BoldItalic.ttf") format("truetype");
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Proba Pro';
+  src: url("../fonts/ProbaPro-Italic.eot");
+  src: local("Proba Pro Italic"), local("ProbaPro-Italic"), url("../fonts/ProbaPro-Italic.eot?#iefix") format("embedded-opentype"), url("../fonts/ProbaPro-Italic.woff") format("woff"), url("../fonts/ProbaPro-Italic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Proba Pro';
+  src: url("../fonts/ProbaPro-Regular.eot");
+  src: local("Proba Pro Regular"), local("ProbaPro-Regular"), url("../fonts/ProbaPro-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/ProbaPro-Regular.woff") format("woff"), url("../fonts/ProbaPro-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Proba Pro';
+  src: url("../fonts/ProbaPro-Bold.eot");
+  src: local("Proba Pro Bold"), local("ProbaPro-Bold"), url("../fonts/ProbaPro-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/ProbaPro-Bold.woff") format("woff"), url("../fonts/ProbaPro-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+.brandContainer {
+  max-width: 1240px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+a {
+  display: inline-block;
+}
+
+button {
+  cursor: pointer;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 30px;
+}
+
+body {
+  overflow-x: hidden;
+  min-height: 100vh;
+}
+
+.brandPage {
+  font-family: Proba Pro;
+}
+
+.brandMainTitle {
+  font-family: Proba Pro;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 45px;
+  line-height: 45px;
+  /* identical to box height, or 100% */
+  text-transform: uppercase;
+  color: #544D46;
+}
+
+.brandTitle {
+  font-family: Proba Pro;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 40px;
+  line-height: 40px;
+  /* or 100% */
+  color: #544D46;
+}
+
+.brandText {
+  font-family: Proba Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+  /* or 133% */
+  color: #544D46;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+ul[class],
+ol[class] {
+  padding: 0;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+  font-size: inherit;
+}
+
+ul[class] {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+a {
+  text-decoration: none;
+}
+
+.brandTop {
+  margin-top: 50px;
+  margin-bottom: 200px;
+}
+
+.brandTop .brandMainTitle {
+  padding-bottom: 21px;
+  border-bottom: 1px solid #544d46;
+  margin-bottom: 40px;
+}
+
+.brandTop__text {
+  max-width: 480px;
+}
+
+.brandTop__video img {
+  width: 687px;
+  height: 370px;
+}
+
+.brandTop__inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.brandInfoTop {
+  margin-bottom: 200px;
+}
+
+.brandInfoTop__inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.brandInfoTop__col {
+  max-width: 584px;
+  width: 100%;
+}
+
+.brandInfoTop__col img {
+  width: 100%;
+  height: 476px;
+}
+
+.brandInfoTop__col:last-child img {
+  height: 100%;
+}
+
+.brandInfoTop .brandTitle {
+  padding-bottom: 16px;
+  border-bottom: 1px solid #544d46;
+  margin-bottom: 48px;
+}
+
+.brandInfoTop .brandTitle.second-title {
+  margin-bottom: 64px;
+}
+
+.brandInfoAbout {
+  padding: 56px 0;
+  background-color: #e4ebef;
+  margin-bottom: 200px;
+}
+
+.brandInfoAbout__inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+}
+
+.brandInfoAbout__inner img {
+  width: 789px;
+  height: 100%;
+}
+
+.brandInfoAbout__box {
+  max-width: 379px;
+}
+
+.brandInfoAbout__box .brandTitle {
+  margin-bottom: 16px;
+}
+
+.brandInfoAbout__box .brandText {
+  max-width: 280px;
+}
+
+.brandInfoHistory {
+  margin-bottom: 200px;
+}
+
+.brandInfoHistory__inner {
+  position: relative;
+}
+
+.brandInfoHistory__head {
+  max-width: 380px;
+  width: 100%;
+  padding: 16px 0;
+  border-top: 2px solid #544d46;
+  border-bottom: 2px solid #544d46;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.brandInfoHistory__circle {
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  text-align: center;
+  border: 2px solid #544D46;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: auto;
+}
+
+.brandInfoHistory__images {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.brandInfoHistory__images img:first-child {
+  border-radius: 408px 408px 0px 0px;
+  width: 480px;
+  margin-right: 32px;
+}
+
+.brandAbout {
+  margin-bottom: 200px;
+}
+
+.brandAbout__inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.brandAbout__col:first-child {
+  margin-right: 32px;
+  max-width: 687px;
+}
+
+.brandAbout__col:first-child .brandTitle {
+  padding-top: 16px;
+  border-top: 2px solid #544D46;
+  margin-bottom: 64px;
+}
+
+.brandAbout__col:first-child img {
+  height: 693px;
+}
+
+.brandAbout__col:last-child img {
+  height: 797px;
+  margin-bottom: 32px;
+}
+
+.brandAbout__col:last-child .brandText {
+  padding-top: 16px;
+  border-top: 2px solid #544D46;
+}
+
+.brandAboutTestimonials {
+  margin-bottom: 200px;
+}
+
+.brandAboutTestimonials .brandMainTitle.first-title {
+  margin-bottom: 19px;
+}
+
+.brandAboutTestimonials__image {
+  width: 100%;
+  margin-bottom: 48px;
+}
+
+.brandAboutTestimonials__box {
+  padding: 16px 0;
+  border-top: 2px solid #544D46;
+  border-bottom: 2px solid #544D46;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 64px;
+}
+
+.brandAboutTestimonials__box .brandMainTitle {
+  margin-right: 19px;
+  max-width: 392px;
+  width: 100%;
+}
+
+.brandAboutTestimonials__box .brandText {
+  margin-left: 13px;
+  max-width: 262px;
+}
+
+.brandAboutTestimonials__text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.brandAboutTestimonials__text .brandText {
+  max-width: 276px;
+  width: 100%;
+  padding-top: 16px;
+  border-top: 2px solid #544D46;
+  font-size: 16px;
+}
+
+.brandAboutTestimonials__text .brandText:first-child {
+  max-width: 379px;
+}
+
+.brandReason__list {
+  max-width: 790px;
+  margin-left: auto;
+}
+
+.brandReason__list .brandTitle {
+  padding-bottom: 16px;
+  border-bottom: 2px solid #544D46;
+  margin-bottom: 64px;
+}
+
+.brandReasonPeople {
+  margin-top: 200px;
+}
+
+.brandReasonPeople__inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.brandReasonPeople .brandTitle {
+  padding-top: 16px;
+  border-top: 2px solid #544D46;
+}
+
+.brandReasonPeople__col:first-child {
+  max-width: 687px;
+  margin-right: 32px;
+}
+
+.brandReasonPeople__col:first-child .brandTitle {
+  margin-bottom: 64px;
+}
+
+.brandReasonPeople__col:last-child .brandTitle {
+  margin-top: 64px;
+}
+/*# sourceMappingURL=style.css.map */
