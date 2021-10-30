@@ -500,7 +500,27 @@ a {
 }
 
 .brandReasonPeople {
+  margin-bottom: 200px;
   margin-top: 200px;
+}
+
+.brandReasonPeople__inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.brandReasonPeople__col:first-child {
+  margin-right: 32px;
+  max-width: 687px;
+}
+
+.brandReasonPeople__col:first-child .brandTitle {
+  margin-bottom: 64px;
+}
+
+.brandReasonPeople__col:last-child .brandTitle {
+  margin-top: 64px;
 }
 
 .brandReasonAbout {
@@ -514,8 +534,19 @@ a {
   margin-bottom: 64px;
 }
 
+.brandReasonAbout .brandText {
+  -webkit-box-flex: 0;
+      -ms-flex: none;
+          flex: none;
+}
+
 .brandReasonAbout .brandText:first-child {
   margin-top: auto;
+  width: 185px;
+}
+
+.brandReasonAbout .brandText:last-child {
+  width: 264px;
 }
 
 .brandReasonAbout__inner {
@@ -538,6 +569,7 @@ a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  width: 100%;
 }
 
 .brandView__col {
@@ -551,8 +583,7 @@ a {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  min-height: 660px;
-  max-width: 687px;
+  width: 100%;
   margin-right: 33px;
 }
 
@@ -571,6 +602,8 @@ a {
 }
 
 .brandView__text {
+  -webkit-column-gap: 32px;
+          column-gap: 32px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -579,7 +612,13 @@ a {
           justify-content: space-between;
 }
 
-.brandView img {
+.brandView__image {
+  -webkit-box-flex: 0;
+      -ms-flex: none;
+          flex: none;
+}
+
+.brandView__image img {
   width: 100%;
 }
 
@@ -719,6 +758,9 @@ a {
         -ms-flex-order: -1;
             order: -1;
   }
+  .brandReasonAbout__inner {
+    padding: 0;
+  }
 }
 
 @media (max-width: 935px) {
@@ -731,6 +773,32 @@ a {
   }
   .brandInfoHistory__circle {
     margin-left: 0;
+  }
+  .brandReasonPeople__inner {
+    display: block;
+  }
+  .brandReasonPeople__col:first-child {
+    max-width: 100%;
+    width: 100%;
+  }
+  .brandReasonPeople__col:first-child img {
+    width: 100%;
+  }
+  .brandReasonPeople__col:last-child {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+  }
+  .brandReasonPeople__col:last-child .brandTitle {
+    margin-bottom: 64px;
+    -webkit-box-ordinal-group: 0;
+        -ms-flex-order: -1;
+            order: -1;
   }
 }
 
@@ -778,6 +846,24 @@ a {
   .brandAboutTestimonials__text .brandText:first-child {
     margin-bottom: 32px;
     max-width: 100%;
+  }
+  .brandReasonAbout__inner {
+    display: block;
+  }
+  .brandReasonAbout .brandText:first-child {
+    border-top: 0;
+    width: 100%;
+    margin-bottom: 32px;
+  }
+  .brandReasonAbout .brandText:last-child {
+    width: 100%;
+  }
+  .brandReasonAbout__image {
+    width: 100%;
+    margin-bottom: 32px;
+  }
+  .brandReasonAbout__image img {
+    width: 100%;
   }
 }
 

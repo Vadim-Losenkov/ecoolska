@@ -235,9 +235,24 @@
     }
   }
 }
-
 .brandReasonPeople {
+  margin-bottom: 200px;
   margin-top: 200px;
+  &__inner {
+    display: flex;
+  }
+  &__col:first-child {
+    margin-right: 32px;
+    max-width: 687px;
+    .brandTitle {
+      margin-bottom: 64px;
+    }
+  }
+  &__col:last-child {
+    .brandTitle {
+      margin-top: 64px;
+    }
+  }
 }
 
 .brandReasonAbout {
@@ -248,8 +263,15 @@
     max-width: 892px;
     margin-bottom: 64px;
   }
+  .brandText {
+    flex: none;
+  }
   .brandText:first-child {
     margin-top: auto;
+    width: 185px;
+  }
+  .brandText:last-child {
+    width: 264px;
   }
   &__inner {
     padding: 0 103px;
@@ -263,13 +285,15 @@
   margin-bottom: 250px;
   &__inner {
     display: flex;
+    width: 100%;
   }
   &__col {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    min-height: 660px;
-    max-width: 687px;
+    // min-height: 660px;
+    // max-width: 687px;
+    width: 100%;
     margin-right: 33px;
   }
   &__box {
@@ -287,11 +311,15 @@
     }
   }
   &__text {
+    column-gap: 32px;
     display: flex;
     justify-content: space-between;
   }
-  img {
-    width: 100%;
+  &__image {
+    flex: none;
+    img {
+      width: 100%;
+    }
   }
 }
 
