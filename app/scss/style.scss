@@ -14,12 +14,14 @@
   }
   &__text {
     max-width: 480px;
+    margin-right: 32px;
   }
   &__video {
     position: relative;
+
     .brandTop-videoimage {
-      width: 687px;
-      height: 370px;
+      width: 100%;
+      min-width: 460px;
     }
     .brandTop-videoicon {
       position: absolute;
@@ -38,14 +40,15 @@
   margin-bottom: 200px;
   &__inner {
     display: flex;
-    justify-content: space-between;
   }
   &__col {
     max-width: 584px;
     width: 100%;
+    &:first-child {
+      margin-right: 32px;
+    }
     img {
       width: 100%;
-      height: 476px;
     }
     &:last-child {
       img {
@@ -70,15 +73,16 @@
     display: flex;
     align-items: flex-end;
     justify-content: space-between;
-    width: 100%;
-
+  }
+  &__image {
+    margin-right: 32px;
     img {
-      width: 789px;
-      height: 100%;
+      width: 100%;
     }
   }
   &__box {
-    max-width: 379px;
+    width: 379px;
+    flex: none;
     .brandTitle {
       margin-bottom: 16px;
     }
@@ -105,31 +109,50 @@
     height: 220px;
     border-radius: 50%;
     text-align: center;
-    border: 2px solid #544D46;
+    border: 2px solid #544d46;
     display: flex;
     justify-content: center;
     align-items: center;
     margin-left: auto;
+    margin-top: 32px;
   }
   &__images {
     display: flex;
     align-items: flex-end;
+    flex-wrap: wrap;
+    column-gap: 32px;
     img:first-child {
       border-radius: 408px 408px 0px 0px;
       width: 480px;
-      margin-right: 32px;
     }
   }
 }
 
 .brandAbout {
-  .brandPage-col:first-child {
+  margin-bottom: 200px;
+  &__inner {
+    display: flex;
+    
+  }
+  &__col:first-child {
+    margin-right: 32px;
+    max-width: 687px;
+    .brandTitle {
+      margin-bottom: 64px;
+    }
     img {
       height: 693px;
     }
   }
-  .brandPage-col:last-child {
+  &__col:last-child {
+    max-width: 687px;
+    display: flex;
+    flex-direction: column;
+    .brandTitle {
+      margin-top: 64px;
+    }
     img {
+      width: 100%;
       height: 797px;
       margin-bottom: 32px;
     }
@@ -148,20 +171,26 @@
   }
   &__box {
     display: flex;
+    flex-wrap: wrap;
     margin-bottom: 64px;
+    column-gap: 40px;
+    align-items: center;
+    border-bottom: 2px solid #544D46;
     .brandMainTitle {
-      margin-right: 19px;
-      max-width: 392px;
+      max-width: 380px;
+      margin-bottom: 10px;
+      padding-bottom: 16px;
       width: 100%;
     }
     .brandText {
-      margin-left: 13px;
       max-width: 262px;
+      padding-bottom: 16px;
     }
   }
   &__text {
     display: flex;
     justify-content: space-between;
+    column-gap: 32px;
     .brandText {
       max-width: 276px;
       width: 100%;
@@ -174,6 +203,30 @@
 }
 
 .brandReason {
+  position: relative;
+  &-grad {
+    position: absolute;
+    width: 388px;
+    height: 388px;
+    filter: blur(250px);
+    z-index: -1;
+  }
+  &-grad-1 {
+    left: 111px;
+    top: 111px;
+    background: #eeffcb;
+  }
+  &-grad-2 {
+    left: -105px;
+    bottom: 0;
+    background: #bce3ff;
+  }
+  &-grad-3 {
+    bottom: 61px;
+    right: -125px;
+    background: #ffc692;
+  }
+
   &__list {
     max-width: 790px;
     margin-left: auto;
@@ -189,7 +242,7 @@
 
 .brandReasonAbout {
   margin-bottom: 200px;
-  background-color: #D0DEBB;
+  background-color: #d0debb;
   padding: 56px 0;
   .brandTitle {
     max-width: 892px;
@@ -225,7 +278,7 @@
       line-height: 40px;
       font-size: 38px;
     }
-    
+
     .brandText:first-child {
       width: 276px;
     }

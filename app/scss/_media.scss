@@ -1,0 +1,113 @@
+@media (max-width: 1200px) {
+  .brandInfoTop {
+    &__col {
+      &:first-child {
+        margin-right: 0;
+      }
+      &:last-child {
+        display: none;
+      }
+    }
+  }
+  .brandAbout {
+    &__inner {
+      flex-wrap: wrap;
+    }
+    &__col:first-child {
+      margin: 0 auto;
+      img {
+        height: auto;
+      }
+    }
+    &__col:last-child {
+      margin: 0 auto;
+      max-width: 100%;
+      max-width: 687px;
+      display: flex;
+      flex-direction: column;
+
+      img {
+        height: auto;
+      }
+    }
+    .brandText {
+      margin: 32px 0;
+      order: -1;
+    }
+  }
+}
+@media (max-width: 935px) {
+  .brandInfoHistory {
+    &__head {
+      position: static;
+      margin-bottom: 32px;
+    }
+    &__images {
+      img:first-child {
+        display: none;
+      }
+    }
+    &__circle {
+      margin-left: 0;
+    }
+  }
+  .brandReasonPeople {
+    
+  }
+}
+@media (max-width: 768px) {
+  .brandMainTitle {
+    font-size: 38px;
+  }
+  .brandTitle {
+    font-size: 32px;
+  }
+  .brandTop {
+    &__inner {
+      display: block;
+    }
+    &__text {
+      margin-right: 0;
+      margin-bottom: 20px;
+      max-width: 100%;
+    }
+    .brandTop-videoimage {
+      min-width: 0;
+    }
+  }
+  .brandInfoAbout {
+    &__inner {
+      display: block;
+    }
+    &__image {
+      margin-right: 0;
+      display: flex;
+      justify-content: center;
+      margin-bottom: 32px;
+      img {
+        max-width: 400px;
+      }
+    }
+    &__box {
+      width: auto;
+    }
+  }
+
+  .brandAboutTestimonials {
+    &__text {
+      display: block;
+
+      .brandText,
+      .brandText:first-child {
+        margin-bottom: 32px;
+        max-width: 100%;
+      }
+    }
+  }
+}
+
+@media (max-width: 420px) {
+  .brandTop-videoicon {
+    width: 50px;
+  }
+}
