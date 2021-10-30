@@ -42,3 +42,14 @@
 	font-weight: bold;
 	font-style: normal;
 }
+
+@font-face {
+	font-family: 'Proba Pro';
+	src: url('ProbaPro-Light.eot');
+	src: local('Proba Pro Light'), local('ProbaPro-Light'),
+		url('ProbaPro-Light.eot?#iefix') format('embedded-opentype'),
+		url('ProbaPro-Light.woff') format('woff'),
+		url('ProbaPro-Light.ttf') format('truetype');
+	font-weight: 300;
+	font-style: normal;
+}
