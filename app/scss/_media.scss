@@ -77,6 +77,16 @@
       }
     }
   }
+  .brandGallery {
+    .brandTitle {
+      span:nth-child(2) {
+        margin-left: 25px;
+      }
+      span:last-child {
+        margin-left: 50px;
+      }
+    }
+  }
 }
 @media (max-width: 768px) {
   .brandMainTitle {
@@ -149,8 +159,40 @@
       }
     }
   }
+  .brandViewRule {
+    
+    &__image.large {
+      display: none;
+    }
+  }
 }
 
+@media (max-width: 540px) {
+  .brandGallery {
+    .brandTitle {
+      span:nth-child(2) {
+        margin-left: 0;
+        margin-top: 10px;
+      }
+      span:last-child {
+        margin-top: 10px;
+        margin-left: 0;
+      }
+    }
+  }
+  .brandViewRule {
+    &__inner {
+      display: flex;
+      flex-direction: column;
+    }
+    &__image.girl {
+      order: -1;
+    }
+    .brandText.second {
+      order: 1;
+    }
+  }
+}
 @media (max-width: 420px) {
   .brandTop-videoicon {
     width: 50px;
