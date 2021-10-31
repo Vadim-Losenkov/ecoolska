@@ -107,6 +107,7 @@
   &__circle {
     width: 220px;
     height: 220px;
+    padding: 10px;
     border-radius: 50%;
     text-align: center;
     border: 2px solid #544d46;
@@ -160,6 +161,7 @@
 }
 
 .brandAboutTestimonials {
+  overflow-x: hidden;
   margin-bottom: 200px;
   .brandMainTitle.first-title {
     margin-bottom: 19px;
@@ -209,6 +211,7 @@
     width: 388px;
     height: 388px;
     filter: blur(250px);
+    z-index: 50;
     z-index: -1;
   }
   &-grad-1 {
@@ -283,6 +286,7 @@
 
 .brandView {
   margin-bottom: 250px;
+  overflow-x: hidden;
   &__inner {
     display: grid;
     grid-template-columns: minmax(450px, 700px) minmax(380px, 480px);
@@ -349,14 +353,19 @@
   }
   &__inner {
     display: flex;
+    column-gap: 32px;
     img {
       margin-right: 32px;
     }
+  }
+  &__image {
+    width: 50%;
   }
   &__col {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    width: 50%;
     img {
       width: 100%;
     }
