@@ -75,19 +75,7 @@ body {
   color: #544D46;
 }
 
-.brandPage-block {
-  display: flex;
+.brandPage-section {
   margin-bottom: 200px;
-  .brandPage-col:first-child {
-    margin-right: 32px;
-    max-width: 687px;
-    .brandTitle {
-      margin-bottom: 64px;
-    }
-  }
-  .brandPage-col:last-child {
-    .brandTitle {
-      margin-top: 64px;
-    }
-  }
+  position: relative;
 }

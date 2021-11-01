@@ -118,6 +118,11 @@
   }
 }
 @media (max-width: 768px) {
+  .brandPage-section,
+  .brandView {
+    margin-bottom: 100px;
+  }
+  
   .brandMainTitle {
     font-size: 38px;
   }

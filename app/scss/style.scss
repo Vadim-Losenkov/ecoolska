@@ -67,7 +67,6 @@
 .brandInfoAbout {
   padding: 56px 0;
   background-color: #e4ebef;
-  margin-bottom: 200px;
 
   &__inner {
     display: flex;
@@ -93,7 +92,6 @@
 }
 
 .brandInfoHistory {
-  margin-bottom: 200px;
   &__inner {
     position: relative;
   }
@@ -130,7 +128,6 @@
 }
 
 .brandAbout {
-  margin-bottom: 200px;
   &__inner {
     display: flex;
     
@@ -162,7 +159,6 @@
 
 .brandAboutTestimonials {
   overflow-x: hidden;
-  margin-bottom: 200px;
   .brandMainTitle.first-title {
     margin-bottom: 19px;
   }
@@ -205,7 +201,7 @@
 }
 
 .brandReason {
-  position: relative;
+  margin-bottom: 200px;
   &-grad {
     position: absolute;
     width: 388px;
@@ -236,11 +232,13 @@
     .brandTitle {
       margin-bottom: 64px;
     }
+    .brandTitle.last-item {
+      margin-bottom: 0;
+    }
   }
-}
+} 
+
 .brandReasonPeople {
-  margin-bottom: 200px;
-  margin-top: 200px;
   &__inner {
     display: flex;
   }
@@ -259,7 +257,6 @@
 }
 
 .brandReasonAbout {
-  margin-bottom: 200px;
   background-color: #d0debb;
   padding: 56px 0;
   .brandTitle {
@@ -324,10 +321,9 @@
   &__image {
     
   }
-}
+} // mb250
 
 .brandViewRule {
-  margin-bottom: 200px;
   .brandTitle {
     margin-bottom: 40px;
   }
@@ -344,7 +340,6 @@
 }
 
 .brandViewModel {
-  margin-bottom: 200px;
   .brandTitle {
     margin-bottom: 40px;
     max-width: 686px;
@@ -373,7 +368,6 @@
 }
 
 .brandGallery {
-  margin-bottom: 200px;
   .brandTitle {
     margin-bottom: 64px;
     span {
