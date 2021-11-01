@@ -4,6 +4,28 @@
 @import "global";
 @import "libs";
 
+.brandMain {
+  background-image: url('../images/content/brandPage-main.jpg');
+  background-repeat: no-repeat;
+  // background-size: cover;
+  background-position: center;
+  width: 100%;
+  padding: 20px;
+  height: 577px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .brandHeadTitle {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 80px;
+    line-height: 120%;
+    text-align: center;
+    color: #ffffff;
+  }
+}
+
 .brandTop {
   margin-top: 50px;
   margin-bottom: 200px;
@@ -130,7 +152,6 @@
 .brandAbout {
   &__inner {
     display: flex;
-    
   }
   &__col:first-child {
     margin-right: 32px;
@@ -173,7 +194,7 @@
     margin-bottom: 64px;
     column-gap: 40px;
     align-items: center;
-    border-bottom: 2px solid #544D46;
+    border-bottom: 2px solid #544d46;
     .brandMainTitle {
       max-width: 380px;
       margin-bottom: 10px;
@@ -236,7 +257,7 @@
       margin-bottom: 0;
     }
   }
-} 
+}
 
 .brandReasonPeople {
   &__inner {
@@ -319,7 +340,6 @@
     justify-content: space-between;
   }
   &__image {
-    
   }
 } // mb250
 

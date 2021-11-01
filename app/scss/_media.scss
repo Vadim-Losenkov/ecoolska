@@ -202,6 +202,11 @@
 }
 
 @media (max-width: 540px) {
+  .brandMain {
+    .brandHeadTitle {
+      font-size: 40px;
+    }
+  }
   .brandGallery {
     .brandTitle {
       span:nth-child(2) {
