@@ -230,11 +230,12 @@
     position: absolute;
     width: 388px;
     height: 388px;
-    -webkit-filter: blur(250px);
-    -moz-filter: blur(250px);
-    -ms-filter: blur(250px);
-    -o-filter: blur(250px);
-    filter: blur(250px);
+    -webkit-filter: blur(100px);
+    -moz-filter: blur(100px);
+    -ms-filter: blur(100px);
+    -o-filter: blur(100px);
+    filter: blur(100px);
+    opacity: .3;
     z-index: -1;
   }
   &-grad-image {
