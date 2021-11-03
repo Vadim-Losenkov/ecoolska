@@ -1,0 +1,8 @@
+<svg width="388" height="388" viewBox="0 0 388 388" fill="none" xmlns="http://www.w3.org/2000/svg">
+<defs>
+    <filter id="f1" x="0" y="0">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="250" />
+    </filter>
+  </defs>
+<circle cx="194" cy="194" r="194" fill="#EEFFCB" filter="url(#f1)" />
+</svg>
